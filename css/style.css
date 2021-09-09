@@ -1,0 +1,53 @@
+body {
+   color: white;
+   background-color: rgb(32,33,36);
+   font-family: sans-serif;
+}
+
+.button {
+   display: inline-block;
+
+   margin: 10px;
+   border: 1px;
+   border-style: solid;
+   border-color: white;
+
+   padding-right: 6;
+   padding-left: 6;
+   padding-top: 1;
+   padding-bottom: 1;
+
+   color: white;
+   background-color: rgb(32,33,36);
+   text-decoration: none;
+
+   font-size: 1rem;
+}
+
+.add-button {
+   margin: 10px;
+   height: 3rem;
+   width: 3rem;
+
+   border: 1px;
+   border-style: solid;
+   border-color: white;
+   border-radius: 50%;
+
+   color: white;
+   background-color: rgb(32,33,36);
+   font-size: 2rem;
+   cursor: pointer;
+}
+
+.input {
+   border: 1px;
+   border-style: solid;
+   border-color: white;
+
+   margin: auto;
+   padding: 2px;
+
+   color: white;
+   background-color: rgb(32,33,36);
+}
