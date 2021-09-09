@@ -3,7 +3,7 @@
 $server = "172.17.0.2";
 $username = "root";
 $password = "secret";
-$database = "scrum";
+$database = "taskmanager";
 
 $conn = new mysqli($server, $username, $password);
 if ($conn->connect_error) {
@@ -18,7 +18,7 @@ $conn->select_db($database);
 $conn->query("CREATE TABLE IF NOT EXISTS tasks (
    id INT AUTO_INCREMENT PRIMARY KEY,
    project INT NOT NULL,
-   name VARCHAR(100) NOT NULL,
+   name TEXT NOT NULL,
    col INT NOT NULL
    )");
 

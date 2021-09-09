@@ -4,7 +4,7 @@ include 'db.php';
 
 <html>
 <head>
-   <title>SCRUM</title>
+   <title>Task Manager</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/table.css">
 </head>

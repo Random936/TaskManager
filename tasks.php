@@ -21,7 +21,7 @@ function printColumn($conn, $col, $proj) {
 ?>
 <html>
 <head>
-   <title>SCRUM</title>
+   <title>Task Manager</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/grid.css">
 </head>
